@@ -20,15 +20,15 @@ const [currentPage, handlepageChange] = useState('Home');
 
     return (
 <div>
-        <Breakpoint large up>
 
-            <Banner/>
+
+        <Banner/>
 
             <div>
            <Nav currentPage={currentPage} handlepageChange={handlepageChange} />
             <div>{renderPage(currentPage)}</div>
             </div>
-        </Breakpoint>
+   
 
 </div>
     )

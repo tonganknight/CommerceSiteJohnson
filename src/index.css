@@ -1,4 +1,4 @@
-
+/* 1200px and up */
 body{
   padding: 0px;
   margin: 0px;
@@ -23,13 +23,21 @@ body{
   padding-top: 0px;
 }
 
+.linkedditer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #f7f2f0;
+  width: 100%;
+  height: 50px;
+}
+
 .Navtext{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 100%;
-  height: 50px;
-  background-color: #f7f2f0;
+  background-color: transparent;
   font-size: 30px;
   text-decoration: none;
   color: black;
@@ -37,12 +45,16 @@ body{
   align-items: center;
 }
 
-.Navtext:hover{
+.Navtext:focus{
   color: #0868a9;
-  animation: createBox .1s;
+  animation: createBox 0.5s;
   animation-iteration-count: 1;
   background-color: #f7f2f0;
 
+}
+
+.Navtext:hover{
+  color:#0868a9;
 }
 
 @keyframes createBox {
@@ -53,11 +65,22 @@ body{
     transform: scale(1);
   }
 }
-  
-
-
-.linkedditer{
-display: flex;
-flex-direction: row;
-background-color: #f7f2f0;
+ /* 575px and down*/
+ .BannerFlexsm{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width:  100%;
+  height: 100px;
+  font-family: 'Alex Brush', cursive;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  font-weight: bold;
+  background-image: url("./assets/Images/Banner.jpg");
+  background-size: cover;
+  color: aliceblue;
+  margin-top: 0px;
+  padding-top: 0px;
 }
+

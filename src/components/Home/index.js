@@ -5,7 +5,13 @@ function Home() {
 
     return(
 
-        <div>The Home Page</div>
+        <div>
+            <Breakpoint large up>
+
+                <div>this is the home page</div>
+            </Breakpoint>
+
+        </div>
 
     );
 }

@@ -11,7 +11,7 @@ function Nav({currentPage, handlepageChange}){
 
             <nav>
                 {tabs.map(tab => (
-                    <div key={tab} className=""><a href={'#' + tab.toLowerCase()}
+                    <div key={tab} className="linkedditer"><a href={'#' + tab.toLowerCase()}
                     onClick={() => handlepageChange(tab)}
                     className={ 
                     currentPage === tab ? 'nav-link active' : 'nav-link', "Navtext"
