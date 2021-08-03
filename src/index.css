@@ -1,0 +1,63 @@
+
+body{
+  padding: 0px;
+  margin: 0px;
+}
+
+.BannerFlexlg{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width:  100%;
+  height: 400px;
+  font-family: 'Alex Brush', cursive;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+  font-weight: bold;
+  background-image: url("./assets/Images/Banner.jpg");
+  background-size: cover;
+  background-position-y: 79%;
+  color: aliceblue;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.Navtext{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  background-color: #f7f2f0;
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+  font-family: 'Alex Brush', cursive;
+  align-items: center;
+}
+
+.Navtext:hover{
+  color: #0868a9;
+  animation: createBox .1s;
+  animation-iteration-count: 1;
+  background-color: #f7f2f0;
+
+}
+
+@keyframes createBox {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+  
+
+
+.linkedditer{
+display: flex;
+flex-direction: row;
+background-color: #f7f2f0;
+}
