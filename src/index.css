@@ -1,3 +1,6 @@
+.break{
+  margin-top: 10px;
+}
 /* 1200px and up */
 body{
   padding: 0px;
@@ -23,29 +26,32 @@ body{
   padding-top: 0px;
 }
 
-.linkedditer{
+.linkedditerlg{
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   background-color: #f7f2f0;
+  box-shadow: 10px 5px 5px grey;
   width: 100%;
   height: 50px;
 }
 
-.Navtext{
+.Navtextlg{
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  margin-top: 8px;
+  margin-right: 30px;
   background-color: transparent;
   font-size: 30px;
   text-decoration: none;
   color: black;
   font-family: 'Alex Brush', cursive;
-  align-items: center;
+
+
 }
 
-.Navtext:focus{
+.Navtextlg:focus{
   color: #0868a9;
   animation: createBox 0.5s;
   animation-iteration-count: 1;
@@ -53,7 +59,7 @@ body{
 
 }
 
-.Navtext:hover{
+.Navtextlg:hover{
   color:#0868a9;
 }
 
@@ -65,6 +71,59 @@ body{
     transform: scale(1);
   }
 }
+
+/*Home page lg*/
+
+.HomePageFlexlg{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 8px;
+  background-color: #f7f2f0;
+}
+
+.HomePageWelcomelg{
+  font-family: 'Alex Brush', cursive;
+  font-size: 80px;
+  color: black;
+  margin-top: 50px;
+}
+
+.HomePageWelcomePiclg{
+  height: 300px;
+  width: 300px;
+  text-align: center;
+  background-color: white;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.HomePageAboutlg{
+  font-size: 40px;
+  width:690px;
+  margin-bottom: 50px;
+  font-family: 'Alex Brush', cursive;
+}
+
+.HomePageVemmoIcon{
+  height: 100px;
+  width: 100px;
+  margin-bottom: 50px;
+  background-image: url("https://www.pngjoy.com/pngl/827/20523003_venmo-venmo-logo-png-transparent-png.png");
+  background-size: cover;
+  animation: coin 4s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes coin{
+        
+  100% {transform:rotatey(360deg) } }
+
+
+
  /* 575px and down*/
  .BannerFlexsm{
   display: flex;
@@ -79,8 +138,62 @@ body{
   font-weight: bold;
   background-image: url("./assets/Images/Banner.jpg");
   background-size: cover;
+  background-position-y: 95%;
   color: aliceblue;
   margin-top: 0px;
   padding-top: 0px;
 }
 
+.linkedditersm{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 45px;
+  background-color: #f7f2f0;
+  box-shadow: 10px 5px 5px grey;
+}
+
+.Navtextsm{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: transparent;
+  margin-right: 30px;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  font-family: 'Alex Brush', cursive;
+  align-items: center;
+}
+
+.Navtextsm:focus{
+  color: #0868a9;
+  animation: createBox 0.5s;
+  animation-iteration-count: 1;
+  background-color: #f7f2f0;
+
+}
+
+.Navtextsm:hover{
+  color:#0868a9;
+}
+
+.HomePageFlexsm{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 7px;
+  background-color: #f7f2f0;
+}
+
+.HomePageWelcomesm{
+  font-family: 'Alex Brush', cursive;
+  font-size: 40px;
+  color: black;
+  margin-top: 50px;
+}
