@@ -22,7 +22,7 @@ function Home() {
                 </div>
 
 
-                <div className="HomePageVemmoIcon"></div>
+                <div className="HomePageVemmoIconlg"></div>
 
 
                 <div className="HomePageAboutlg">We use Vemmo for all of our Transactions.</div>
@@ -34,11 +34,23 @@ function Home() {
 
                 <div className="HomePageFlexsm">
 
-                <div className="HomePageWelcomesm">
-                    Welcome to The Enchanted Trunk!
-                </div>
+                    <div className="HomePageWelcomesm">
+                        Welcome to Mele's Emporium!
+                    </div>
                     
+                    <div className="HomePageWelcomePicsm"></div>
 
+                    <div className="HomePageAboutsm">All of our products are magical. We want to help you find something unique and special.
+                        We want you to find the perfect gift or keepsake that speaks to your soul! Most of all we want to enchant you!
+                        <div className="break"></div>
+                        Feel free to browse our selections and find the special item that speaks to you.
+                    </div>
+
+                    <div className="HomePageVemmoIconsm"></div>
+
+                    <div className="HomePageAboutsm">
+                        We secure all Payments through Venmo!
+                    </div>
                 </div>
 
 
