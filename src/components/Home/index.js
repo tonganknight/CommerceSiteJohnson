@@ -1,5 +1,6 @@
 import React from 'react';
 import { Breakpoint } from 'react-socks';
+import Footer from '../Footer'
 
 function Home() {
 
@@ -51,11 +52,16 @@ function Home() {
                     <div className="HomePageAboutsm">
                         We secure all Payments through Venmo!
                     </div>
+
+
+
                 </div>
 
 
 
             </Breakpoint>
+
+            <Footer/>
 
         </div>
 
