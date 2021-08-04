@@ -8,7 +8,7 @@ function Banner(){
         <Breakpoint large up>
 
             <div className="BannerFlexlg">
-                <div>The Enchanted Trunk</div>
+                <div>Mele's Emporium</div>
             </div>
 
         </Breakpoint>
@@ -16,7 +16,7 @@ function Banner(){
         <Breakpoint small down>
 
             <div className="BannerFlexsm">
-                <div>The Enchanted Trunk</div>
+                <div>Mele's Emporium</div>
             </div>
 
         </Breakpoint>

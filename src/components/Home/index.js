@@ -11,25 +11,21 @@ function Home() {
             <div className="HomePageFlexlg">
 
                 <div className="HomePageWelcomelg">
-                    Welcome to The Enchanted Trunk!
+                    Welcome to Mele's Emporium!
                 </div>
 
-                <div className="HomePageWelcomePiclg">Place Holder</div>
+                <div className="HomePageWelcomePiclg"></div>
 
-                <div className="HomePageAboutlg">Prepare to have your mind 
-                enchanted by our amazing products. We off many items 
-                you can not find anywhere else. Our enchanting items include: 
-                Necklaces , Rings, Keepsakes, Bracelets,  Blah, Blah, blah</div>
+                <div className="HomePageAboutlg">All of our products are magical. We want to help you find something unique and special.
+                We want you to find the perfect gift or keepsake that speaks to your soul! Most of all we want to enchant you!
+                <div className="break"></div>Feel free to browse our selections and find the special item that speaks to you.
+                </div>
 
 
                 <div className="HomePageVemmoIcon"></div>
 
 
-                <div className="HomePageAboutlg">Here at the Enchanted Trunk 
-                We use Vemmo for Safe and Secure Transactions. To Place an order,
-                Browse our products from the Navigation bar at the top of the
-                screen. When you have found the product you would like to buy,
-                select the Vemmo Icon, Yada Yadda Yada</div>
+                <div className="HomePageAboutlg">We use Vemmo for all of our Transactions.</div>
             </div>
 
             </Breakpoint>

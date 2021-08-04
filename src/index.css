@@ -18,7 +18,7 @@ body{
   align-items: center;
   font-size: 80px;
   font-weight: bold;
-  background-image: url("./assets/Images/Banner.jpg");
+  background-image: url("./assets/Images/Homegif.gif");
   background-size: cover;
   background-position-y: 79%;
   color: aliceblue;
@@ -94,11 +94,13 @@ body{
 
 .HomePageWelcomePiclg{
   height: 300px;
-  width: 300px;
+  width: 500px;
+  border-radius: 17px;
   text-align: center;
-  background-color: white;
+  background-image: url("./assets/Images/Banner.jpg");
+  background-size: cover;
   margin-top: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .HomePageAboutlg{
@@ -136,7 +138,7 @@ body{
   align-items: center;
   font-size: 25px;
   font-weight: bold;
-  background-image: url("./assets/Images/Banner.jpg");
+  background-image: url("./assets/Images/Homegif.gif");
   background-size: cover;
   background-position-y: 95%;
   color: aliceblue;
