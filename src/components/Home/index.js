@@ -27,6 +27,8 @@ function Home() {
 
 
                 <div className="HomePageAboutlg">We use Vemmo for all of our Transactions.</div>
+
+
             </div>
 
             </Breakpoint>
@@ -52,8 +54,6 @@ function Home() {
                     <div className="HomePageAboutsm">
                         We secure all Payments through Venmo!
                     </div>
-
-
 
                 </div>
 
