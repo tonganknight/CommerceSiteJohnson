@@ -1,5 +1,6 @@
 import React from 'react';
 import { Breakpoint } from 'react-socks';
+import { ButtonGroup, DropdownButton, Dropdown,  } from 'react-bootstrap';
 
 function Nav({currentPage, handlepageChange}){
 
@@ -27,19 +28,20 @@ function Nav({currentPage, handlepageChange}){
 
         <Breakpoint small down>
             
-        <nav>
-            <div className="linkedditersm">
+        <nav className=" linkedditersm navbar navbar-light ">  
+        <ButtonGroup className="dropdown">
+         <DropdownButton as={ButtonGroup} menuAlign={{ lg: 'right' }} id="bg-nested-dropdown" className="mobileMenuButton">
+
                 {tabs.map(tab => (
-                    <div key={tab} ><a href={'#' + tab.toLowerCase()}
-                    onClick={() => handlepageChange(tab)}
+                    <Dropdown.Item><div key={tab} className="navtext"><a href={'#' + tab.toLowerCase()} 
+                    onClick={() => handlepageChange(tab)} data-toggle="dropdown"
                     className={ 
-                    currentPage === tab ? 'nav-link active' : 'nav-link', "Navtextsm"
+                    currentPage === tab ? 'nav-link active' : 'nav-link', "mobileNavText"
                     } >{tab}</a></div>
-
-
-                ))}
-                </div>
-        </nav>
+               </Dropdown.Item> ))}
+       </DropdownButton>
+       </ButtonGroup>
+       </nav>
 
 
         </Breakpoint>

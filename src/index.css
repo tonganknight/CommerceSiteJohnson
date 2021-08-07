@@ -7,6 +7,29 @@ body{
   margin: 0px;
 }
 
+.Brand{
+  background-color: #6c757d;
+  color: white;
+  font-family: 'Zen Dots', cursive;
+  text-align: center;
+  text-decoration: none;
+}
+
+.Brandlink{
+  background-color: #6c757d;
+  color: white;
+  font-family: 'Zen Dots', cursive;
+  text-align: center;
+  text-decoration: none;
+}
+
+.Brandlink:hover{
+color: #0ff
+}
+
+.a{
+  text-decoration: none;
+}
 .BannerFlexlg{
   display: flex;
   flex-direction: row;
@@ -188,13 +211,14 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: transparent;
+  background-color: #f7f2f0;
   margin-right: 30px;
   font-size: 20px;
   text-decoration: none;
   color: black;
   font-family: 'Alex Brush', cursive;
   align-items: center;
+  
 }
 
 .Navtextsm:focus{
@@ -217,8 +241,10 @@ body{
   text-align: center;
   width: 100%;
   height: 100%;
-  margin-top: 7px;
+  margin-top: 10px;
   background-color: #f7f2f0;
+  border-bottom: ridge;
+  box-shadow: 2px 5px 5px grey;
 }
 
 .HomePageWelcomesm{
@@ -256,4 +282,87 @@ body{
   background-size: cover;
   animation: coin 4s infinite;
   animation-timing-function: linear;
+}
+
+.FooterFlexsm{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: #f7f2f0;
+  margin-top: 5px;
+  font-family: 'Alex Brush', cursive;
+  font-size: 30px;
+  padding-top: 15px;
+}
+
+.mobileMenuButton{
+
+  height: 50px;
+  width: 50px;
+}
+
+#bg-nested-dropdown {
+    height: 50px;
+    width: 50px;
+    background-color: #f7f2f0;
+    border: transparent;
+    background-image: url("./assets/Images/Menu.svg") !important;
+    background-size: cover !important;
+
+}
+
+.btn-group{
+  text-decoration: none !important;
+}
+
+.dropdown-menu{
+  width: 290px;
+  margin-left: 0px;
+}
+
+.dropdown-item{
+/* Targets the Auto Generated Link that holds the link button. This removes the underline on the buttons*/
+  text-decoration: none !important;
+}
+
+
+.dropdown-toggle:focus{
+  box-shadow: none !important;
+}
+
+.dropdown-toggle::after {
+  content: none !important;
+}
+
+.mobileNavText{
+  font-family: 'Alex Brush', cursive;
+  font-size: 25px;
+  width: 100%;
+  text-align: center;
+  color: white !important;
+  background-color: #0868a9;
+  text-decoration: none !important;
+}
+
+.navtext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+  font-size: 20px;
+  color: black;
+  text-decoration: none !important;
+  background-color: transparent;
+}
+
+.navbar{
+  width: 100%;
+  height: 60px;
+  color: black;
+  display: flex;
+  justify-content: flex-start !important;
+  text-decoration: hidden !important;
 }

@@ -11,8 +11,21 @@ function Footer(){
                     <div className="FooterSocialMediaCalllg">Check us out on Instagram!</div>
                      <a className="FooterInstagramIconlg"></a>
                 </div>
+
+                <div className="Brand">created by <a  href="https://react-malachi.herokuapp.com/#about"className="Brandlink">AlusuaSolutions</a></div>
                 
                
+            </Breakpoint>
+
+            <Breakpoint small down>
+
+            <div className="FooterFlexsm">
+                    <div className="FooterSocialMediaCalllg">Check us out on Instagram!</div>
+                     <a className="FooterInstagramIconlg"></a>
+            </div>
+
+            <div className="Brand">created by <a  href="https://react-malachi.herokuapp.com/#about"className="Brandlink">AlusuaSolutions</a></div>
+
             </Breakpoint>
 
         </div>
