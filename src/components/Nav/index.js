@@ -1,10 +1,14 @@
-import React from 'react';
+import React, {useState}from 'react';
 import { Breakpoint } from 'react-socks';
-import { ButtonGroup, DropdownButton, Dropdown,  } from 'react-bootstrap';
+import { Dropdown } from 'react-bootstrap';
 
 function Nav({currentPage, handlepageChange}){
 
     const tabs =[ 'Home', 'Products1']
+
+    const [dropdownOpen, setOpen] = useState(false);
+
+    const toggle = () => setOpen(!dropdownOpen);
 
     return (
     <div>
@@ -28,21 +32,33 @@ function Nav({currentPage, handlepageChange}){
 
         <Breakpoint small down>
             
-        <nav className=" linkedditersm navbar navbar-light ">  
-        <ButtonGroup className="dropdown">
-         <DropdownButton as={ButtonGroup} menuAlign={{ lg: 'right' }} id="bg-nested-dropdown" className="mobileMenuButton">
+        <Dropdown>
+           
 
-                {tabs.map(tab => (
-                    <Dropdown.Item><div key={tab} className="navtext"><a href={'#' + tab.toLowerCase()} 
-                    onClick={() => handlepageChange(tab)} data-toggle="dropdown"
+          
+
+            <nav>
+        <div className="linkedditerlg">
+            <Dropdown.Toggle variant="success" id="dropdown-basic">
+                Icon Goes Here
+            </Dropdown.Toggle>
+
+              <Dropdown.Menu>
+                
+                 {tabs.map(tab => (
+                    <div key={tab} ><a href={'#' + tab.toLowerCase()}
+                    onClick={() => handlepageChange(tab)}
                     className={ 
-                    currentPage === tab ? 'nav-link active' : 'nav-link', "mobileNavText"
+                    currentPage === tab ? 'nav-link active' : 'nav-link', "Navtextsm"
                     } >{tab}</a></div>
-               </Dropdown.Item> ))}
-       </DropdownButton>
-       </ButtonGroup>
-       </nav>
+                
+                ))}
+            </Dropdown.Menu>
 
+             </div>  
+             </nav>
+          
+        </Dropdown>
 
         </Breakpoint>
         </div>
