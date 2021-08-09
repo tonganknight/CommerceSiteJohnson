@@ -223,10 +223,9 @@ color: #0ff
 
 .Navtextsm:focus{
   color: white ;
-  animation: createBox 0.5s;
+  /*animation: createBox 0.5s;*/
   animation-iteration-count: 1;
   background-color: #0868a9;
-
 }
 
 .Navtextsm:hover{
