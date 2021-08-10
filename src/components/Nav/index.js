@@ -1,6 +1,6 @@
 import React, {useState}from 'react';
 import { Breakpoint } from 'react-socks';
-import { Dropdown } from 'react-bootstrap';
+import { Dropdown, align } from 'react-bootstrap';
 
 function Nav({currentPage, handlepageChange}){
 
@@ -39,14 +39,14 @@ function Nav({currentPage, handlepageChange}){
 
             <nav>
         <div className="linkedditerlg">
-            <Dropdown.Toggle variant="success" id="dropdown-basic" className="MapIconsm">
+            <Dropdown.Toggle variant="success" id="dropdown-basic" align="end" className="MapIconsm">
               
             </Dropdown.Toggle>
 
               <Dropdown.Menu>
                 
                  {tabs.map(tab => (
-                    <div key={tab} ><a href={'#' + tab.toLowerCase()}
+                    <div key={tab} ><div className="linkFlexsm"></div><a href={'#' + tab.toLowerCase()}
                     onClick={() => handlepageChange(tab)}
                     className={ 
                     currentPage === tab ? 'nav-link active' : 'nav-link', "Navtextsm"

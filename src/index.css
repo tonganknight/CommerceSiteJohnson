@@ -213,7 +213,9 @@ color: #0ff
   justify-content: center;
   background-color: #0868a9;
   font-size: 25px;
-  width: 127px;
+  width: 100px;
+  padding-right: 30%;
+  padding-left: 40%;
   text-decoration: none;
   color: white;
   font-family: 'Alex Brush', cursive;
@@ -313,4 +315,54 @@ color: #0ff
         
   100% {transform:rotatez(540deg) } 
 
+}
+
+.linkFlexsm{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+
+/* Products1 Page*/
+.Products1Title{
+  text-align: center;
+  background-color:#f7f2f0 ;
+  font-size: 40px;
+  font-family: 'Alex Brush', cursive;
+  padding-top: 25px;
+  margin-top: 7px;
+
+}
+
+.Products1Flexsm{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.Product1ProductFlex{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color:#f7f2f0 ;
+}
+
+.PlaceHolderProduct{
+  margin-top: 50px;
+  margin-bottom: 15px;
+  height: 275px;
+  width: 250px;
+  background-color: white;
+}
+
+.PlaceHolderTitle{
+  text-align: center;
+  background-color:#f7f2f0 ;
+  font-size: 40px;
+  font-family: 'Alex Brush', cursive;
 }
