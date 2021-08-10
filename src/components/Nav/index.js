@@ -38,7 +38,9 @@ function Nav({currentPage, handlepageChange}){
           
 
             <nav>
+                <div className="MenuTitlesm">Menu</div>
         <div className="linkedditerlg">
+            
             <Dropdown.Toggle variant="success" id="dropdown-basic" align="end" className="MapIconsm">
               
             </Dropdown.Toggle>
