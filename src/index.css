@@ -297,9 +297,20 @@ color: #0ff
   padding-top: 15px;
 }
 
-.mobileMenuButton{
-
+.MapIconsm{
+  border-radius: 90%;
   height: 50px;
   width: 50px;
+  background-image: url("https://cdn1.iconfinder.com/data/icons/medieval-7/128/medieval_gem_diamond_crystal_precious_jewel_stone_treasure-512.png");
+  background-size: cover;
+  border: none;
+}
+.MapIconsm:focus{
+    animation: Gemspin 0.5s;
 }
 
+@keyframes Gemspin{
+        
+  100% {transform:rotatez(540deg) } 
+
+}
