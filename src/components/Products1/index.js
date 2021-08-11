@@ -1,6 +1,7 @@
 import React from 'react';
 import Breakpoint from 'react-socks';
 import {Button} from 'react-bootstrap';
+import Footer from '../Footer'
 
 function Products1(){
 
@@ -14,7 +15,7 @@ function Products1(){
           Pic: '#',
           Quantity: '3'},
         { Name: 'Bronze Gem',
-          Price: '5.54',
+          Price: '$5.54',
           Pic: '#',
           Quantity: '3'}
 
@@ -23,7 +24,34 @@ function Products1(){
     return(
         <div>
             <Breakpoint large up>
-                <div> This is the Page for Products1</div>
+      
+            <div className="Products1Titlesm">Title</div>
+            
+
+                {items.map(item => (
+
+
+                <div className="Products1Flexlg">
+
+
+                    <div className="Product1ProductFlexsm">
+                    <div className="PlaceHolderProductlg"></div>
+                    </div> 
+                    <div className="PlaceHolderTitlesm">{item.Name}</div>
+                    <div className="PlaceholderProduct1Pricesm">{item.Price}</div>
+
+                    <div class="VenmoButtonFlexsm">
+                    <a target="blank" href="https://account.venmo.com/pay?recipients=Mele-tutu" className="PlaceholderVenmobuttonlg">
+                        Place Order With Venmo
+                    </a>
+                </div>
+            </div>
+
+
+                    ))}
+
+
+            <Footer/>
 
             </Breakpoint>
 
@@ -44,7 +72,7 @@ function Products1(){
                 <div className="PlaceholderProduct1Pricesm">{item.Price}</div>
 
                 <div class="VenmoButtonFlexsm">
-                    <a href="https://account.venmo.com/pay?recipients=Mele-tutu" className="PlaceholderVenmobuttonsm">
+                    <a target="blank" href="https://account.venmo.com/pay?recipients=Mele-tutu" className="PlaceholderVenmobuttonsm">
                         Place Order With Venmo
                     </a>
                 </div>
@@ -54,7 +82,7 @@ function Products1(){
                         ))}
                 
    
-                
+                <Footer/>
             
             </Breakpoint>
 

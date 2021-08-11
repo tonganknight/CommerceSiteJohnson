@@ -12,7 +12,7 @@ function Footer(){
                      <a className="FooterInstagramIconlg"></a>
                 </div>
 
-                <div className="Brand">created by <a  href="https://react-malachi.herokuapp.com/#about"className="Brandlink">AlusuaSolutions</a></div>
+                <div className="Brand">created by <a  href="https://react-malachi.herokuapp.com/#about"className="Brandlink">AlusaSolutions</a></div>
                 
                
             </Breakpoint>
@@ -24,7 +24,7 @@ function Footer(){
                      <a className="FooterInstagramIconlg"></a>
             </div>
 
-            <div className="Brand">created by <a  href="https://react-malachi.herokuapp.com/#about"className="Brandlink">AlusuaSolutions</a></div>
+            <div className="Brand">created by <a  href="https://react-malachi.herokuapp.com/#about"className="Brandlink">AlusaSolutions</a></div>
 
             </Breakpoint>
 
