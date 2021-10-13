@@ -17,16 +17,17 @@ function Home() {
 
                 <div className="HomePageWelcomePiclg"></div>
 
-                <div className="HomePageAboutlg">All of our products are magical. We want to help you find something unique and special.
-                We want you to find the perfect gift or keepsake that speaks to your soul! Most of all we want to enchant you!
-                <div className="break"></div>Feel free to browse our selections and find the special item that speaks to you.
+                <div className="HomePageAboutlg">Hello Chico Residents!<div className="break"></div> Welcome to my Shop!
+                Here you can find some basic info for placing  orders, and for navigating our website. One thing to note... We use Venmo for all of our transactions, 
+                so you will need to have an account with them.  
+                
                 </div>
 
 
                 <div className="HomePageVemmoIconlg"></div>
 
 
-                <div className="HomePageAboutlg">We use Vemmo for all of our Transactions.</div>
+                <div className="HomePageAboutlg"> and Remember... We use Vemmo for all of our Transactions.</div>
 
 
             </div>
@@ -43,10 +44,9 @@ function Home() {
                     
                     <div className="HomePageWelcomePicsm"></div>
 
-                    <div className="HomePageAboutsm">All of our products are magical. We want to help you find something unique and special.
-                        We want you to find the perfect gift or keepsake that speaks to your soul! Most of all we want to enchant you!
-                        <div className="break"></div>
-                        Feel free to browse our selections and find the special item that speaks to you.
+                    <div className="HomePageAboutsm">Hello Chico Residents!<div className="break"></div> Welcome to my Shop!
+                Here you can find some basic info for placing  orders, and for navigating our website. One thing to note... We use Venmo for all of our transactions, 
+                so you will need to have an account with them.
                     </div>
 
                     <div className="HomePageVemmoIconsm"></div>

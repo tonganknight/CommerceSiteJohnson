@@ -1,6 +1,5 @@
 import React from 'react';
 import Breakpoint from 'react-socks';
-import {Button} from 'react-bootstrap';
 import Footer from '../Footer'
 
 function Products1(){

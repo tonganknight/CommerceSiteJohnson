@@ -1,14 +1,14 @@
-import React, {useState}from 'react';
+import React from 'react';
 import { Breakpoint } from 'react-socks';
-import { Dropdown, align } from 'react-bootstrap';
+import { Dropdown } from 'react-bootstrap';
 
 function Nav({currentPage, handlepageChange}){
 
     const tabs =[ 'Home', 'Products1']
 
-    const [dropdownOpen, setOpen] = useState(false);
 
-    const toggle = () => setOpen(!dropdownOpen);
+
+  
 
     return (
     <div>
