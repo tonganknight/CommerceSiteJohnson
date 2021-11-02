@@ -167,6 +167,7 @@ color: #0ff
   margin-bottom: 20px;
   background-image: url("./assets/Images/Instagram.png");
   background-size: cover;
+  
 }
 
 .Products1Flexlg{
@@ -181,7 +182,8 @@ color: #0ff
   margin-bottom: 15px;
   height: 500px;
   width: 500px;
-  background-color: white;
+  background-position: center;
+  border-radius: 17px;
 }
 
 .PlaceholderVenmobuttonlg{
@@ -329,6 +331,7 @@ color: #0ff
   background-color:#f7f2f0 ;
   font-size: 15px;
   height: 15px;
+  pointer-events: none;
 }
 
 .MapIconsm{
@@ -389,7 +392,8 @@ color: #0ff
   margin-bottom: 15px;
   height: 275px;
   width: 250px;
-  background-color: white;
+  background-position: center;
+  border-radius: 17px;
 }
 
 .PlaceHolderTitlesm{

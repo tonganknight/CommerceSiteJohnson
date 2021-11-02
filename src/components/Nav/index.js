@@ -4,7 +4,7 @@ import { Dropdown } from 'react-bootstrap';
 
 function Nav({currentPage, handlepageChange}){
 
-    const tabs =[ 'Home', 'Products1']
+    const tabs =[ 'Home', 'Memorabilia']
 
 
 

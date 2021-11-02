@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import Home from '../Home';
 import Nav from '../Nav';
 import Banner from '../Banner';
-import Products1 from '../Products1';
+import Products1 from '../Memorabilia';
 
 function RenderLive(){
 
@@ -12,7 +12,7 @@ const [currentPage, handlepageChange] = useState('Home');
         switch (currentPage) {
             case 'Home':
                 return <Home/>;
-            case 'Products1':
+            case 'Memorabilia':
                 return <Products1/>
             default: 
                 return <Home />;
