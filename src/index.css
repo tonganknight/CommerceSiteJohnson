@@ -438,10 +438,52 @@ color: #0ff
   justify-content: center;
 }
 
-.HomePageRules{
+
+
+.RulesTitleLg{
+  margin-top: 100px;
   text-align: center;
-  font-size: 46px;
+  font-size: 80px;
   font-family: 'Alex Brush', cursive;
-  color: black;
+  color: #3c95cd;
 }
 
+.RulesTitleSm{
+  margin-top: 40px;
+  text-align: center;
+  font-size: 75px;
+  font-family: 'Alex Brush', cursive;
+  color: #3c95cd;
+}
+
+.RuleLg{
+  color: #3c95cd;
+}
+
+.RuleSm{
+  color: #3c95cd;
+  font-size: 25px;
+  margin-bottom: 10px;
+  font-family: 'Alex Brush', cursive;
+}
+
+.HomePagePromiseLg{
+  text-align: center;
+  font-size: 80px;
+  color: #3c95cd;
+  font-family: 'Alex Brush', cursive;
+  margin-top: 100px;
+}
+
+.HomePagePromiseSm{
+  text-align: center;
+  font-size: 47px;
+  color: #3c95cd;
+  font-family: 'Alex Brush', cursive;
+  margin-top: 50px;
+}
+
+.PromisetextLg{
+  color: #3c95cd;
+  font-family: 'Alex Brush', cursive;
+}

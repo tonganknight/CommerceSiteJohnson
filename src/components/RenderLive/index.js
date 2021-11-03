@@ -2,7 +2,8 @@ import React, {useState} from 'react';
 import Home from '../Home';
 import Nav from '../Nav';
 import Banner from '../Banner';
-import Products1 from '../Memorabilia';
+import Memorabilia from '../Memorabilia';
+import Necklaces from '../Necklaces';
 
 function RenderLive(){
 
@@ -13,7 +14,9 @@ const [currentPage, handlepageChange] = useState('Home');
             case 'Home':
                 return <Home/>;
             case 'Memorabilia':
-                return <Products1/>
+                return <Memorabilia/>
+            case 'Necklaces':
+                return <Necklaces/>
             default: 
                 return <Home />;
         }
