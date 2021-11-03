@@ -20,7 +20,9 @@ function Home() {
                 <div className="HomePageAboutlg">Hello Chico Residents!<div className="break"></div> Welcome to my Shop!
                 Here you can find some basic info for placing  orders, and for navigating our website. One thing to note... We use Venmo for all of our transactions, 
                 so you will need to have an account with them.  
+            
                 
+                <div className="HomePageRules">Rules</div>
                 </div>
 
 

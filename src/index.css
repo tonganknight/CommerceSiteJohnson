@@ -438,3 +438,10 @@ color: #0ff
   justify-content: center;
 }
 
+.HomePageRules{
+  text-align: center;
+  font-size: 46px;
+  font-family: 'Alex Brush', cursive;
+  color: black;
+}
+
