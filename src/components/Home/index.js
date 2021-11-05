@@ -25,9 +25,8 @@ function Home() {
                 <Rules/>
 
                 <div className="HomePagePromiseLg">Our Promise to you!</div>
-                <div className="PromisetextLg">I promise a unique gift! I never make the same set twice.</div>
-                    <div className="PromisetextLg">When applicable, I include 4 felt dots on the bottom of products to protect furniture</div> 
-
+                <div className="PromisetextLg">We Promise a unique Gift! </div>
+                <div className="PromisetextLg">All of trinkets are one of kind. I never make the same set twice!</div> 
                 <section id="HowToOrder">
                 <div className="HomePagePromiseLg"> How to Place an order</div>
 
@@ -64,8 +63,8 @@ function Home() {
 
                     <div className="HomePagePromiseSm">Our Promise</div>
 
-                    <div>I promise a unique gift! I never make the same set twice.</div>
-                    <div>When applicable I include 4 felt dots on the bottom of products to protect furniture</div> 
+                    <div>We Promise a unique Gift! </div>
+                    <div>All of trinkets are one of kind. I never make the same set twice!</div> 
 
 
                 <section id="HowToOrder">

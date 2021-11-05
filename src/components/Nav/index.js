@@ -18,7 +18,7 @@ function Nav({currentPage, handlepageChange}){
                 <div className="linkedditerlg">
                 {tabs.map(tab => (
                     <div key={tab} ><a href={'#' + tab.toLowerCase()}
-                    onClick={() => handlepageChange(tab)}
+                    onClick={() => handlepageChange(tab)}  data-toggle="dropdown"
                     className={ 
                     currentPage === tab ? 'nav-link active' : 'nav-link', "Navtextlg"
                     } >{tab}</a></div>
@@ -49,7 +49,7 @@ function Nav({currentPage, handlepageChange}){
                 
                  {tabs.map(tab => (
                     <div key={tab} ><div className="linkFlexsm"></div><a href={'#' + tab.toLowerCase()}
-                    onClick={() => handlepageChange(tab)}
+                    onClick={() => handlepageChange(tab)}  data-toggle="dropdown"
                     className={ 
                     currentPage === tab ? 'nav-link active' : 'nav-link', "Navtextsm"
                     } >{tab}</a></div>
