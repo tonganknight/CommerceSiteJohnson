@@ -27,10 +27,12 @@ function Home() {
                 <div className="HomePagePromiseLg">Our Promise to you!</div>
                 <div className="PromisetextLg">We Promise a unique Gift! </div>
                 <div className="PromisetextLg">All of trinkets are one of kind. I never make the same set twice!</div> 
-                <section id="HowToOrder">
+                
+            <section id="HowToOrder">
                 <div className="HomePagePromiseLg"> How to Place an order</div>
-
-                </section>
+                <div className="PromisetextLg">1. Log into your Venmo using your Browser!</div>
+                <div className="PromisetextLg">2. Navigate back to our page and browse our products</div>
+            </section>
 
                 </div>
 
@@ -69,7 +71,11 @@ function Home() {
 
                 <section id="HowToOrder">
                     <div className="HomePagePromiseSm"> How to Place an order</div>
-
+                    <div className="PromisetextLg">1. Log into your Venmo using your Browser!</div>
+                    <div className="PromisetextLg">2. Navigate back to our page and click on <div className="iconexamplesm"></div></div>
+                    <div className="PromisetextLg">3. Find a product you like and click the Place Order Button</div>
+                    <div className="PromisetextLg">4. Make Sure the order is going to Mele Tutu</div>
+                    <div className="PromisetextLg">5. In the Note make sure to mention: Your name, your order, and when you would like to pick it up</div>
                 </section>
                     </div>
 

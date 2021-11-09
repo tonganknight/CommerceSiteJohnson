@@ -488,3 +488,12 @@ color: #0ff
   font-family: 'Alex Brush', cursive;
   text-align: center;
 }
+
+.iconexamplesm{
+  background-image: url("https://cdn1.iconfinder.com/data/icons/medieval-7/128/medieval_gem_diamond_crystal_precious_jewel_stone_treasure-512.png");
+  background-size: cover;
+  height: 52px;
+  width: 52px;
+  margin-left: 42%;
+  margin-right: 50%;
+}
