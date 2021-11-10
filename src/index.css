@@ -201,6 +201,11 @@ color: #0ff
   margin-bottom: 30px;
   border:  solid #3c95cd;
 }
+.PlaceholderVenmobuttonlg:hover{
+  background-color: #3c95cd;
+  color: white;
+  opacity: 0.7;
+}
 
 
  /* 575px and down*/
