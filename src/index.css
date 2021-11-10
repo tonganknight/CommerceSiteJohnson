@@ -192,14 +192,14 @@ color: #0ff
   height: 75px;
   width: 300px;
   text-align: center;
-  background-color: #3c95cd;
-  color: white;
+  background-color: transparent;
+  color: #3c95cd;
   font-weight: bold;
   padding-top: 10px;
   padding-left: 10px;
-  border-radius: 45px;
   margin-top: 15px;
   margin-bottom: 30px;
+  border:  solid #3c95cd;
 }
 
 
