@@ -64,6 +64,10 @@ function Memorabilia(){
 
     ]
 
+    function AlertCustomer(){
+        window.alert("Sorry Products are not available at this time ")
+    }
+
 
     return(
         <div>
@@ -85,9 +89,9 @@ function Memorabilia(){
                     <div className="PlaceholderProduct1Pricesm">{item.Price}</div>
                    
                     <div className="VenmoButtonFlexsm">
-                    <a target="blank" href="https://account.venmo.com/pay?recipients=Mele-tutu" className="PlaceholderVenmobuttonlg">
-                        Place Order With Venmo
-                    </a>
+                    <button  onClick={AlertCustomer} className="PlaceholderVenmobuttonlg">
+                        Place Order
+                    </button>
                 </div>
             </div>
 
@@ -116,9 +120,9 @@ function Memorabilia(){
                 <div className="PlaceholderProduct1Pricesm">{item.Price}</div>
 
                 <div class="VenmoButtonFlexsm">
-                    <a target="blank" href="https://account.venmo.com/pay?recipients=Mele-tutu" className="PlaceholderVenmobuttonsm">
-                        Place Order With Venmo
-                    </a>
+                    <button onClick={AlertCustomer} className="PlaceholderVenmobuttonsm">
+                        Place Order
+                    </button>
                 </div>
                              </div>
               

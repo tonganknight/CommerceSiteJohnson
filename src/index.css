@@ -423,7 +423,9 @@ color: #0ff
   height: 50px;
   width: 175px;
   text-align: center;
-  background-color: #3c95cd;
+  background-image: linear-gradient(
+     #2196f3 0%, #42a5f5 52%);
+  border: solid rgba(0, 0, 255, 0.3);
   color: white;
   font-weight: bold;
   padding-top: 10px;
