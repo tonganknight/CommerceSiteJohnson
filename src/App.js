@@ -5,7 +5,6 @@ import RenderLive from './components/RenderLive';
 function App() {
   return (
     <BreakpointProvider>
-    
       <RenderLive/>
     </BreakpointProvider>
   );
